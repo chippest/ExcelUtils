@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "build": {
-    "appId": "com.example.myapp",
+    "appId": "com.chipp.excelutils",
     "win": {
-      "target": "nsis",
+      "target": "portable",
       "icon": "build/icon.ico"
     },
     "files": [
