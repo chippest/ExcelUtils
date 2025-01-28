@@ -1,7 +1,10 @@
-// const path = require("path");
-// require("electron-reload")(path.join(__dirname, "."), {
-//   electron: require(`${__dirname}/node_modules/electron`),
-// });
+const path = require("path");
+
+if (process.env.NODE_ENV === "development") {
+  require("electron-reload")(path.join(__dirname, "."), {
+    electron: require(`${__dirname}/node_modules/electron`),
+  });
+}
 
 const { app, BrowserWindow } = require("electron");
 
