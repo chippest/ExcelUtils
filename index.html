@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utils</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d8baa3cb86.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Input Data for Excel</h1>
+
+      <div class="input-group">
+        <div class="inputBox">
+          <input
+            required="required"
+            type="text"
+            class="input-field name-field"
+          />
+          <span>First Name</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input
+            required="required"
+            type="text"
+            class="input-field name-field"
+          />
+          <span>Last Name</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input required="required" type="text" class="input-field" />
+          <span>Email</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input
+            required="required"
+            type="text"
+            class="input-field cell-field"
+          />
+          <span>Cell</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input required="required" type="text" class="input-field" />
+          <span>Address</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox province-buttons">
+          <div class="bla">
+            <button class="province-button selected" data-province="ON">
+              ON
+            </button>
+            <button class="province-button" data-province="BC">BC</button>
+            <button class="province-button" data-province="AB">AB</button>
+            <button class="province-button" data-province="MB">MB</button>
+          </div>
+          <span>Province</span>
+        </div>
+        <div class="inputBox">
+          <input
+            required="required"
+            type="text"
+            class="input-field"
+            value="None"
+          />
+          <span>Credit Score</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input required="required" type="number" class="input-field" />
+          <span>Amount Loan</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input required="required" type="text" class="input-field" />
+          <span>Term</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <input
+            required="required"
+            type="text"
+            class="input-field new-input-field"
+          />
+          <span>User</span>
+          <button class="paste-button">
+            <i class="fa-solid fa-paste"></i>
+          </button>
+        </div>
+        <div class="inputBox">
+          <textarea name="" id="" placeholder="Additional Notes"></textarea>
+          <span>Notes</span>
+        </div>
+        <div class="inputBox utilBtns">
+          <button class="close-button">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </button>
+          <button class="draggable-cube">
+            <i class="fa-solid fa-arrows-up-down-left-right"></i>
+          </button>
+          <button class="reset-button">
+            <i class="fa-solid fa-rotate-left"></i>
+          </button>
+          <button id="copyButton">
+            <i class="fa-solid fa-copy"></i>
+          </button>
+        </div>
+        <div class="inputBox opacity">
+          <input
+            id="myRange"
+            class="slider"
+            value="100"
+            max="100"
+            min="40"
+            type="range"
+          />
+          <span>Opacity</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
